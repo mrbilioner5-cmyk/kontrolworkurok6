@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контрольная работа JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body id="mainContent">
+
+  <main class="container">
+
+    <header>
+      <h1>Контрольная работа JavaScript</h1>
+      <p>Практические задачи по JavaScript</p>
+    </header>
+
+    <section class="card">
+      <h2>Список дел</h2>
+
+      <p>
+        Введите название задачи и нажмите «Добавить».
+      </p>
+
+      <div class="input-row">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Напишите задачу"
+        >
+
+        <button id="addBtn">Добавить</button>
+      </div>
+
+      <ul id="taskList" class="task-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Переключатель темы</h2>
+
+      <p>
+        Кнопка меняет цвет фона и текста на странице.
+      </p>
+
+      <button id="themeBtn">Темная тема</button>
+    </section>
+
+  </main>
+
+</body>
+</html>
